@@ -1,0 +1,117 @@
+/*STICKY FOOTER AND HEADER*/
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #5D5D5D; 
+}
+  
+body {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+  
+header.page-header, footer.page-footer {
+    flex-grow: 0; 
+    flex-shrink: 0;
+    background-color: #19472A;
+    padding: 10px;
+}
+  
+main.page-body {
+    flex-grow: 1;
+    padding: 0 10px;
+    background-color: #5D5D5D;
+    color: black;
+}
+
+/* END STICKY FOOTER AND HEADER*/
+
+.page-header, #icons-header, .page-footer {
+    display: flex;
+}
+
+#header-left img {
+    width: 200px;
+}
+
+#logo-banner-footer img {
+  width: 400px;
+}
+
+#header-left {
+    float: left;
+}
+
+#icons-header {
+    margin-left: 1130px;
+    margin-top: 15px;
+}
+
+#acount-icon {
+  margin-left: 30px;
+}
+
+/*Menu Code */
+#mymenu {
+    width: 0;
+  }
+  
+  .menubar {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #19472A;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .menubar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .menubar h1 {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 10px;
+  }
+  
+  .menubar a:hover {
+    color: #aaaaaa;
+  }
+  
+  .menubar {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #copyright-thing-footer p {
+    color: #ffffff;
+  }
+
+  #copyright-thing-footer {
+    margin-top: 50px;
+    margin-left: 570px;
+  }

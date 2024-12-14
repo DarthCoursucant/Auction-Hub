@@ -1,7 +1,7 @@
 # Auction-Bay
 
 # Links
-[GitHub Pages Link](https://darthcoursucant.github.io/Square-Eyes-Project/)
+[GitHub Pages Link](https://darthcoursucant.github.io/Auction-Bay/)
 
 [GitHub Pages Projects](https://github.com/users/DarthCoursucant/projects/14)
 
