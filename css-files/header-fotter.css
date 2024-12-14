@@ -1,0 +1,30 @@
+/*STICKY FOOTER AND HEADER*/
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #5D5D5D; 
+  }
+  
+  body {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header.page-header, footer.page-footer {
+    flex-grow: 0; /* 0. Only takes the place it needs */
+    flex-shrink: 0;
+    background-color: #19472A;
+    padding: 10px;
+  }
+  
+  main.page-body {
+    flex-grow: 1; /* 1. Let main take all available space */
+    padding: 0 10px;
+    background-color: #5D5D5D;
+    color: black;
+  }
+
+/* END STICKY FOOTER AND HEADER*/
