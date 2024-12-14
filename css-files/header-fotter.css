@@ -28,3 +28,19 @@ main.page-body {
 }
 
 /* END STICKY FOOTER AND HEADER*/
+
+.page-header {
+    display: flex;
+}
+
+#header-left img {
+    width: 200px;
+}
+
+#header-left {
+    float: left;
+}
+
+#icons-header {
+    float: right;
+}
