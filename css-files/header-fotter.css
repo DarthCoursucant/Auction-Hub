@@ -38,7 +38,7 @@ main.page-body {
 }
 
 #logo-banner-footer img {
-  width: 400px;
+  width: 250px;
 }
 
 #header-left {
@@ -109,9 +109,10 @@ main.page-body {
 
   #copyright-thing-footer p {
     color: #ffffff;
+    font-size: 30px;
   }
 
   #copyright-thing-footer {
-    margin-top: 50px;
-    margin-left: 570px;
+    margin-top: 30px;
+    margin-left: 700px;
   }
