@@ -1,0 +1,12 @@
+{
+  "name": "auction-bay",
+  "version": "1.0.0",
+  "description": "# Links [GitHub Pages Link](https://darthcoursucant.github.io/Auction-Bay/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
